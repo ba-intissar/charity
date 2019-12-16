@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <!-- ========== Meta Tags ========== -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Charities ">
+
+    <!-- ========== Page Title ========== -->
+    <title>Don</title>
+
+    <!-- ========== Favicon Icon ========== -->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+    <!-- ========== Start Stylesheet ========== -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="assets/css/flaticon-charity-set.css" rel="stylesheet" />
+    <link href="assets/css/magnific-popup.css" rel="stylesheet" />
+    <link href="assets/css/owl.carousel.min.css" rel="stylesheet" />
+    <link href="assets/css/owl.theme.default.min.css" rel="stylesheet" />
+    <link href="assets/css/animate.css" rel="stylesheet" />
+    <link href="assets/css/bootsnav.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet" />
+
+
+    <!-- ========== Google Fonts ========== -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,900" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Preloader Start -->
+    <div class="se-pre-con"></div>
+    <!-- Preloader Ends -->
+
+
+    <section class="services-area  carousel-shadow ">
+        <div class="container-fluid" style="padding-left: 0;padding-right: 0;">
+            <div class="row">
+                <div class="col-md-12" style="margin-top: -100px;background: url(assets/img/bg-2.jpg);padding: 8rem;background-size: cover;">
+                    <div class="col-md-7 form" style="margin-top: 9rem;background-color: #fffffff0;">
+                        <br>
+                        <h2>Faites un don
+                        </h2>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Détails du don
+                                </h3>
+                                <br>
+                                <img src="assets/img/payment-card-logo-sm.png">
+                            </div>
+                            <div class="row">
+                                <div class="panel-body">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="Amount">Montant</label>
+                                            <div class="input-group">
+                                                <input type="text" class="form-control" id="Amount" placeholder="$129.00" required="">
+                                                <span class="input-group-addon"><i class="fas fa-dollar-sign"></i></span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <label for="donateType">Une fois que</label>
+                                        <select id="donateType" class="form-control">
+    
+                                            <option value="once">Une fois que</option>
+    
+                                            <option value="weekly">Weekly</option>
+                                            <option value="Fortnightly">Fortnightly</option>
+                                            <option value="Monthly">Monthly</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Détails de paiement
+                                </h3>
+                            </div>
+                            <div class="panel-body">
+                                <form>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label for="cardNumber">Numéro de carte
+                                                    </label>
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control" id="cardNumber" placeholder="Valid Card Number" required="">
+                                                    <span class="input-group-addon"><i class="fas fa-credit-card"></i></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-7 col-sm-7 col-xs-8">
+                                            <div class="form-group">
+                                                <div class="row">
+                                                    <div class="col-sm-12">
+                                                        <label for="expMonth">Date d'expiration
+                                                            </label>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                                        <input type="text" class="form-control" id="expMonth" placeholder="MM" required="" data-stripe="exp_month">
+                                                    </div>
+                                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                                        <input type="text" class="form-control" name="expYear" placeholder="YY" required="" data-stripe="exp_year">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-5 col-sm-5 col-xs-4 pull-right">
+                                            <div class="form-group">
+                                                <label for="cvCode">CV Code</label>
+                                                <input type="password" class="form-control" id="cvCode" placeholder="CV" required="" data-stripe="cvc">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <button class="btn btn-theme effect btn-sm" type="submit">Faire un don </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- jQuery Frameworks
+    ============================================= -->
+    <script src="assets/js/jquery-1.12.4.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/equal-height.min.js"></script>
+    <script src="assets/js/jquery.appear.js"></script>
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/progress-bar.min.js"></script>
+    <script src="assets/js/modernizr.custom.13711.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/count-to.js"></script>
+    <script src="assets/js/bootsnav.js"></script>
+    <script src="assets/js/YTPlayer.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+<!-- Mirrored from kaziriad.com/themeforest/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 09 Dec 2019 13:50:40 GMT -->
+
+</html>
